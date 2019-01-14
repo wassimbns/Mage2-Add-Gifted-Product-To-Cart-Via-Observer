@@ -4,10 +4,10 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd"
         
     <event name="sales_quote_collect_totals_after">
-        <observer name="setGiftPrice" instance="Farmasi\Catalog\Observer\SetGiftProductPriceObserver" />
+        <observer name="setGiftPrice" instance="Magento\Catalog\Observer\SetGiftProductPriceObserver" />
     </event>
     <event name="checkout_cart_product_add_after">
-        <observer name="addPromoProduct" instance="Farmasi\Catalog\Observer\AddPromoProductObserver" />
+        <observer name="addPromoProduct" instance="Magento\Catalog\Observer\AddPromoProductObserver" />
     </event>
 
 </config>
