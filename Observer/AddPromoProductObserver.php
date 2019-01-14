@@ -1,6 +1,6 @@
 <?php
 
-namespace Farmasi\Catalog\Observer;
+namespace Magneto\Catalog\Observer;
 
 use Magento\Framework\Event\Observer as EventObserver;
 use Magento\Framework\Event\ObserverInterface;
@@ -31,8 +31,8 @@ class AddPromoProductObserver implements ObserverInterface
 
     public function execute(\Magento\Framework\Event\Observer $observer)
     {
-        $sku = '6100102';
-        $productId = 1438;
+        $sku = '6100102';  // sku of the gifted product
+        $productId = 1438;  // Id of the gifted product
         $product = $observer->getEvent()->getProduct();
         /** @var \Magento\Quote\Model\Quote\Item $quoteItem */
         $quoteItem = $observer->getEvent()->getQuoteItem();
