@@ -1,6 +1,6 @@
 <?php
 
-namespace Farmasi\Catalog\Observer;
+namespace Magento\Catalog\Observer;
 
 use Magento\Framework\Event\Observer as EventObserver;
 use Magento\Framework\Event\ObserverInterface;
