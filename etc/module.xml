@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Copyright © 2016 Nacef LABIDI (nacef.labidi@gmail.com). All rights reserved.
- * See LICENSE.txt for license details (http://opensource.org/licenses/osl-3.0.php).
- *
+ * Copyright © 2018 Wassim BEN SASSI (wabensassi93@gmail.com). All rights reserved. *
  */
 -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-    <module name="Farmasi_Catalog" setup_version="2.0.11">
+    <module name="Farmasi_Catalog" setup_version="1.0.1">
         <sequence>
             <module name="Magento_Sales"/>
             <module name="Magento_Quote"/>
