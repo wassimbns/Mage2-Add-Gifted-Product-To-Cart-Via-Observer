@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Farmasi\Catalog\Model\Plugin\Quote;
+namespace Magento\Catalog\Model\Plugin\Quote;
 
 
 class CatalogToOrderItem
@@ -24,6 +24,5 @@ class CatalogToOrderItem
         $orderItem = $proceed($item, $additional);
         $orderItem->setIsGifted($item->getIsGifted());
         return $orderItem;
-
     }
 }
