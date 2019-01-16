@@ -7,6 +7,6 @@
 
 \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Magento_Module',
+    'Magento_Catalog',
     __DIR__
 );
